@@ -8,13 +8,14 @@ const SubHeading = (props) => (
     <p className='p__cormorant'>
       {props.title}
     </p>
-    <img src={images.spoon} alt="spoon" />
+    <img src={props.img} alt="spoon" />
   </div>
 );
 
 
 SubHeading.defaultProps = {
-  title: 'Subheading title'
+  title: 'Subheading title',
+  img: images.spoon,
 }
 
 export default SubHeading;

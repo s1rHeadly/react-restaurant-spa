@@ -10,11 +10,22 @@
     line-height: 74px;
     font-size: 72px;
   
+    @media screen and (max-width: 320px) {
+        line-height: 55px;
+        font-size: 53px;
+    }
+
     @media screen and (min-width: 768px){
-            line-height: 117px;
-            font-size: 90px;
+        line-height: 117px;
+        font-size: 102px;
 
     }
+
+    @media screen and (min-width: 1300px){
+        line-height: 86px;
+        font-size: 84px;
+
+}
 }
 
 

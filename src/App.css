@@ -104,8 +104,8 @@
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {
-    font-size: 37px;
-    line-height: 67px;
+    font-size: 23px;
+    line-height: 35px;
   }
 
   .p__opensans {
@@ -149,7 +149,7 @@
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 2rem;
   }
   
   .p__cormorant {
