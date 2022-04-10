@@ -39,6 +39,8 @@ const Intro = () => {
 
         <div className="app__video-overlay_circle flex__center">
 
+
+        {/* show icon depending on state change */}
         {
           play ? (<BsPauseFill color="#fff" fontSize={30} />) : (<BsFillPlayFill color="#fff" fontSize={30} />)
         }
