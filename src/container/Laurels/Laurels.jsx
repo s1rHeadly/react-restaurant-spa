@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Laurels.scss';
-import { SubHeading, MenuItem, AwardCard } from '../../components';
+import { SubHeading, AwardCard } from '../../components';
 import { images, data } from '../../constants';
 
 
